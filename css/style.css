@@ -1,0 +1,267 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 50px;
+  box-shadow: 0 2px 10px gray;
+  font-family: "Cormorant Unicase", Arial, sans-serif;
+  position: fixed;
+  z-index: 100;
+  right: 0;
+  left: 0;
+  background-color: white;
+}
+
+.navbar h1 {
+  font-size: 35px;
+}
+
+.navbar .links {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  align-items: center;
+  width: 400px;
+}
+
+.navbar .links li a {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar .links li a:hover {
+  color: #1abc9c;
+}
+
+.home .bg_image {
+  background-image: url("https://static1.s123-cdn-static-a.com/uploads/1111911/2000_5ae570bf769f0.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 82vh;
+  width: 100%;
+  display: flex;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.home .bg_image .data_bg_image h2 {
+  font-size: 44px;
+}
+
+.home .bg_image .data_bg_image .p1 {
+  font-size: 90px;
+  margin: 30px 0;
+}
+
+.home .bg_image .data_bg_image .p2 {
+  font-size: 27px;
+}
+
+.our_menue {
+  margin-top: 100px;
+}
+
+.our_menue .title {
+  font-size: 30px;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.our_menue hr {
+  width: 50px;
+  height: 5px;
+  background-color: #1abc9c;
+  margin-left: 654px;
+  margin-bottom: 40px;
+}
+
+.our_menue .food {
+  display: flex;
+  flex-wrap: wrap;
+}
+.our_menue .food .food1 {
+  display: flex;
+  justify-content: space-around;
+  width: 45%;
+  margin-bottom: 40px;
+  margin-left: 40px;
+  background-color: #fafafa;
+}
+.our_menue .food .food1 img {
+  width: 43%;
+  height: 229px;
+}
+
+.our_menue .food .food1 .data_food {
+  padding: 30px;
+}
+.our_menue .food .food1 .data_food h2 {
+  font-weight: 100;
+  padding-bottom: 10px;
+}
+.our_menue .food .food1 .data_food .desc {
+  font-size: 18px;
+  width: 90%;
+}
+.our_menue .food .food1 .data_food .price {
+  text-align: end;
+  font-size: 25px;
+  margin-top: 30px;
+}
+
+.our_story {
+  text-align: center;
+  background-color: #fafafa;
+  margin-top: 100px;
+  padding: 100px;
+}
+
+.our_story .title_our_story {
+  font-size: 30px;
+  font-weight: 100;
+  margin-bottom: 20px;
+}
+
+.our_story hr {
+  width: 64px;
+  margin-left: 47%;
+  height: 4px;
+  background-color: #1abc9c;
+  margin-bottom: 20px;
+}
+
+.our_story .pargh1 {
+  font-size: 18px;
+  margin-bottom: 50px;
+}
+
+.our_story .pargh2 {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.our_story .image_our_story {
+  display: flex;
+  justify-content: space-evenly;
+  width: 60%;
+  margin-left: 238px;
+}
+
+.our_story .image_our_story img {
+  width: 200px;
+  border-radius: 10px;
+}
+
+.contact {
+  background-image: url("https://static1.s123-cdn-static-a.com/uploads/1111911/2000_5adf3e7f14163.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 70vh;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+
+.data_contact {
+  z-index: 10;
+}
+
+.contact .data_contact h2 {
+  font-size: 35px;
+  margin: 20px 0;
+}
+
+.contact .black1 {
+  position: absolute;
+  width: 100%;
+  height: 70vh;
+  background-color: black;
+  opacity: 0.4;
+}
+
+.contact .data_contact p {
+  font-size: 18px;
+}
+
+.coment {
+  padding: 100px 0;
+  position: relative;
+}
+
+.coment h2 {
+  font-size: 30px;
+  font-weight: 100;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.coment hr {
+  width: 64px;
+  margin-left: 47%;
+  height: 4px;
+  background-color: #1abc9c;
+  margin-bottom: 40px;
+}
+
+.coment .form_contact {
+  margin-left: 15%;
+}
+
+.coment .form_contact input {
+  font-size: 15px;
+  margin-right: 20px;
+  padding: 5px 10px;
+}
+
+.coment .form_contact button {
+  background-color: #1abc9c;
+  color: white;
+  border: 0;
+  padding: 8px 60px;
+}
+.coment .form_contact input:focus {
+  box-shadow: 0 0 8px rgb(10, 109, 158);
+}
+
+.ss {
+  background-color: black;
+  width: 30px;
+  color: white;
+  padding: 10px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  opacity: 0.6;
+  z-index: 12;
+  text-decoration: none;
+}
+
+.map_contect {
+  background-color: white;
+  position: absolute;
+  right: 0;
+  bottom: 80px;
+  height: 474px;
+  z-index: 10;
+  opacity: 0.8;
+  padding: 40px;
+  font-weight: bold;
+  line-height: 2;
+}
+
+.map_contect a {
+  color: #1abc9c;
+}
